@@ -1,0 +1,91 @@
+body {
+    /* Aquí pondrás el link de tu imagen PNG */
+    background-image: url('https://i.postimg.cc/xjtkPvWr/240092-scuderia-ferrari-miami-gp-2024-race-35c867cf-bf56-40e8-a7b5-7e87eedc715d-6638a1b5509bb.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #11111b; /* Color de respaldo */
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #cdd6f4;
+}
+
+.shop-card {
+    background-color: rgba(30, 30, 46, 0.95); /* Un poco de transparencia para ver el fondo */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 350px;
+    border-top: 4px solid #f30000; /* ACENTO: Rojo Intenso */
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #89dceb; /* Título en Celeste */
+}
+
+.header p {
+    text-align: center;
+    font-size: 13px;
+    color: #a6adc8;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #89dceb; /* Etiquetas en Celeste */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #313244;
+    background-color: #11111b;
+    color: white;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Efecto al seleccionar un input */
+input:focus {
+    border-color: #89dceb;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f30000; /* Botón Rojo */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #89dceb; /* Al pasar el mouse cambia a Celeste */
+    color: #11111b;
+}
+
+button:disabled {
+    background-color: #45475a;
+    cursor: not-allowed;
+}

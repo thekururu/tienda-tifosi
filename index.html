@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Oficial | F1 Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="shop-card">
+    <div class="header">
+        <h1>🏎️ Tienda Oficial</h1>
+        <p>Selecciona tu producto y completa tus datos</p>
+    </div>
+
+    <form id="storeForm">
+        <div class="input-group">
+            <label for="username">Usuario de Discord</label>
+            <input type="text" id="username" placeholder="Ej: Senna_12" required>
+        </div>
+
+        <div class="input-group">
+            <label for="discordId">ID de Discord (Obligatorio)</label>
+            <input type="text" id="discordId" placeholder="Ej: 452123456789" required>
+        </div>
+
+        <div class="input-group">
+            <label for="product">Producto</label>
+            <select id="product">
+                <option value="🏆 Campeonato" data-price="$10,000">🏆 Campeonato - $10,000</option>
+                <option value="🪖 Casco de Senna" data-price="$7,000">🪖 Casco de Senna - $7,000</option>
+                <option value="🏁 Bandera a cuadros" data-price="$3,000">🏁 Bandera a cuadros - $3,000</option>
+                <option value="🎨 VIP" data-price="$12,000">🎨 VIP - $12,000</option>
+                <option value="希 APOLO" data-price="$8,000">希 APOLO - $8,000</option>
+            </select>
+        </div>
+
+        <button type="submit" id="btnEnviar">Confirmar Pedido</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
